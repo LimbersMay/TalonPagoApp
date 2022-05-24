@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">PrincipalActivity</string>
+
+    <!-- Strings de los talones de pago -->
+    <string name="talon_pago">TALÓN DE PAGO</string>
+    <string name="n_pension">Número de pensión</string>
+    <string name="c_adeudo">Código de adeudo</string>
+    <string name="anio">Año</string>
+    <string name="buscar">Buscar</string>
+    <string name="mes">Mes</string>
+
 </resources>
