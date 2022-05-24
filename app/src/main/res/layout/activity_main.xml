@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/numero_pension"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="101dp"
@@ -39,7 +39,7 @@
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/codigoAdeudo"
+        android:id="@+id/codigo_adeudo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="101dp"
@@ -52,11 +52,11 @@
         android:textColorHint="#757575"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/numero_pension"
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/anio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="101dp"
@@ -68,11 +68,11 @@
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/codigoAdeudo"
+        app:layout_constraintTop_toBottomOf="@+id/codigo_adeudo"
         android:importantForAutofill="no" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/caja_meses"
         android:layout_width="207dp"
         android:layout_height="48dp"
         android:layout_marginStart="101dp"
@@ -81,10 +81,10 @@
         android:contentDescription="@string/mes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/anio" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_buscar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="159dp"
@@ -93,5 +93,5 @@
         android:text="@string/buscar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+        app:layout_constraintTop_toBottomOf="@+id/caja_meses" />
 </androidx.constraintlayout.widget.ConstraintLayout>
